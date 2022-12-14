@@ -1,5 +1,3 @@
-
-
 .case_filtre{
     margin-left: 20px;
 }
@@ -24,15 +22,8 @@
     width: 39%;
 }
 
-.etoile_pop{
-    padding-left: 10px;
-    align-items: flex-end;
-    flex: 1;
-    display: flex;
-}
-
 .etoile_bleu{
-    padding-right: 5px;
+    padding-right: 6px;
 }
 
 .figcap_populaire{

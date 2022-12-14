@@ -151,6 +151,10 @@ form{ /* formulaire de recherche*/
 
 /*Les cartes hébergement*/
 
+#bloc_hotel{
+    display: flex;
+}
+
 .carte_hover:hover{ /*carte*/
     transform: scale(1.1);
     transition: transform 0.3s;
@@ -174,8 +178,8 @@ form{ /* formulaire de recherche*/
     margin-top: 39px;
 }
 
-.test{
-    width: 26%;
+.a_heberg{
+    width: 30%;
 }
 
 #hebergement{
@@ -244,6 +248,10 @@ form{ /* formulaire de recherche*/
 
 /*Populaire*/
 
+.etoile_deskpop{
+    padding-right: 7px;
+}
+
 .h4_populaire{
     padding-left: 16px;
 }
@@ -271,7 +279,6 @@ form{ /* formulaire de recherche*/
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 33px;
     position: relative;
 }
 
