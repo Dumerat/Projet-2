@@ -1,0 +1,61 @@
+.case_filtre{
+    margin-left: 20px;
+}
+
+#bloc_hotel{
+    display: flex;
+    flex-direction: column;
+}
+
+#sect_populaire{
+    width: 90%;
+}
+
+#populaire{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.img_populaire{
+    min-width: 39%;
+    width: 39%;
+}
+
+.etoile_bleu{
+    padding-right: 6px;
+}
+
+.figcap_populaire{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+#sect_hebergement{
+    width: 90%;
+}
+
+#activ{
+    margin-bottom: 0;
+    gap: 25px;
+}
+
+.h4_activ{
+    max-width: 170px;
+}
+
+.fig_activ{
+    margin-right: 0;
+    max-height: 270px;
+}
+
+.img_activ{
+    height: 211px;
+}
+
+.figcap_activ{
+    padding-top: 5px;
+    width: auto;
+    padding-bottom: 30px;
+}

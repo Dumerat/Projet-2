@@ -1,0 +1,159 @@
+header
+{
+	flex-direction: column; /*defini l'axe principale en colonne pour <figure> et <nav> */
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#logo{
+    margin: 29px auto 10px;
+}
+
+#menu_nav{
+    display: flex;
+}
+
+.menu_link{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-bottom: solid 3px #F2F2F2;
+    padding-bottom: 16px;
+    margin-left: 0;
+}
+
+.menu_link:hover{
+    border-top: none;
+    border-bottom: solid 3px #0065FC;
+}
+
+/*bloc Titre + Recherche + Filtre*/
+h2, h1, #filtre, form{
+    margin-left: 30px;
+}
+
+#mobile_search{ /* bouton rechercher version mobile*/
+    display: inline-block;
+    background-color: #0065FC;
+    position: relative;
+    right: 15px;
+    border: none;
+    color: white;
+    padding: 14px 15px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 18px;
+}
+
+#barre_recherche{
+    width: 190px;
+}
+
+#desktop_search{
+    display: none;
+}
+
+#titre_filtre{
+    margin-left: 0;
+}
+
+#info{
+  align-items: center;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.cat_filtre{
+    font-size: 11px;
+    line-height: 13px;
+}
+
+/*Bloc hotel*/
+
+#populaire{
+    flex-wrap: wrap;
+}
+
+#block_titre_populaire{
+    margin-top: 28px;
+}
+
+#titre_populaire{
+    margin-top: 0;
+}
+
+.carte_hover{
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#bloc_hotel{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#sect_populaire{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+#hebergement{
+    display: block;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+#sect_hebergement{
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.fig_hebergement{
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.figcap_hebergement{
+    width: 90%;
+}
+
+#txt_plus{
+    display: none;
+}
+
+.img_hebergement{
+    width: 97%;
+}
+
+/*Activités mobile*/
+
+#sect_activ{
+    margin-top: 0;
+}
+
+#activ{
+    display: block;
+}
+
+#titre_activ{
+    width: 200px;
+}
+
+.fig_activ{
+    margin-bottom: 24px;
+}
+
+.img_activ{
+    height: 134px;
+}
+
+/*Footer mobile*/
+
+footer{
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding-left: 30px;
+}
