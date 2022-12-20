@@ -1,0 +1,44 @@
+ 
+/* Mise en page géneral */
+  
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+    display: flex; /*défini l'axe d'affichage*/
+    align-items: center;
+    justify-content: space-between; /* met de l'espace entre les différents composants*/
+}
+
+ul{
+    display:flex; /*défini l'axe d'affichage pour les balise <li>*/
+    justify-content: space-around;
+    font-size: 16px; /*taille de l'écriture*/
+}
+
+li{
+    /*display: flex; ça enleve le point je pense pas que ce soit la bonne solution cependant*/
+}
+
+#logo {
+    margin-top: 20px; /* ajout marge superieur */
+    margin-left: 50px; /* ajout marge gauche */
+    width: 100px; /* defini la grandeur du logo */
+}
+
+a {
+    text-decoration: none; /*supprime le soulignement*/
+    color: black;
+  }
+
+.menu_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_link:hover {
+    border-top: solid 3px #0065fc; /* ligne bleu*/
+    color: #0065fc; /* texte bleu*/
+}
